@@ -1,0 +1,52 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+  background-color: hsl(212, 45%, 89%); 
+
+  display: grid;
+  place-content: center;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+.card {
+  max-width: 320px;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 1.5rem;
+  text-align: center;
+}
+
+.card img {
+  border-radius: 1rem;
+}
+
+.card div {
+  display: grid;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+h1 {
+  font-size: 1.4rem;
+  color: hsl(218, 44%, 22%); 
+}
+
+p {
+  color: hsl(220, 15%, 55%); 
+}
